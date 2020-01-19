@@ -54,5 +54,13 @@
         "image": "tesla-roadster.jpg",
         "description": "Best sports car in the World",
         "price": 249999.99
+    },
+    {
+     "id": "11",
+        "title": "Parfume",
+        "image": "parfume.jpg",
+        "description": "Beautiful parfume",
+        "price": 100
     }
+    
 ]

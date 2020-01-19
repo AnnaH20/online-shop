@@ -7,9 +7,10 @@ function showAlert(message, success = true) {
                 <span aria-hidden="true">&times;</span>
           </button>
         </div>`;
+        
   const alertElement = $('body').append(alertTemplate);
   alertElement.alert();
   setTimeout(() => {
     $('.alert').alert('close');
-  }, 1000);
+  }, success ? 2000 : 3000);
 }
